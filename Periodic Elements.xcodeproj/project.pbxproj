@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEA8359A2896E61B00F17421 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA835992896E61B00F17421 /* SwiftyJSON.swift */; };
 		AEDD02B5289431FA0011F392 /* Periodic_ElementsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD02B4289431FA0011F392 /* Periodic_ElementsApp.swift */; };
 		AEDD02B7289431FA0011F392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD02B6289431FA0011F392 /* ContentView.swift */; };
 		AEDD02B9289432000011F392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDD02B8289432000011F392 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AEA835992896E61B00F17421 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		AEDD02B1289431FA0011F392 /* Periodic Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Periodic Elements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDD02B4289431FA0011F392 /* Periodic_ElementsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Periodic_ElementsApp.swift; sourceTree = "<group>"; };
 		AEDD02B6289431FA0011F392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,9 +53,10 @@
 		AEDD02B3289431FA0011F392 /* Periodic Elements */ = {
 			isa = PBXGroup;
 			children = (
-				AEDD02B4289431FA0011F392 /* Periodic_ElementsApp.swift */,
 				AEDD02B6289431FA0011F392 /* ContentView.swift */,
 				AEDD02B8289432000011F392 /* Assets.xcassets */,
+				AEA835992896E61B00F17421 /* SwiftyJSON.swift */,
+				AEDD02B4289431FA0011F392 /* Periodic_ElementsApp.swift */,
 				AEDD02BA289432000011F392 /* Preview Content */,
 			);
 			path = "Periodic Elements";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA8359A2896E61B00F17421 /* SwiftyJSON.swift in Sources */,
 				AEDD02B7289431FA0011F392 /* ContentView.swift in Sources */,
 				AEDD02B5289431FA0011F392 /* Periodic_ElementsApp.swift in Sources */,
 			);
